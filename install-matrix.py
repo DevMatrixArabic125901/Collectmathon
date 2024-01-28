@@ -9,6 +9,7 @@ def delete_file_if_exists(filename):
         print(f"{filename} does not exist.")
 
 delete_file_if_exists("MillionWinner.py")
+delete_file_if_exists("run.py")
 
 def install_module(module_name):
     try:
