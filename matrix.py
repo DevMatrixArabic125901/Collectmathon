@@ -47,8 +47,8 @@ except FileNotFoundError:
     }
 
     
-    with open(filename, 'w') as f
-        json.dump(data, f
+    with open(filename, 'w') as f:
+        json.dump(data, f)
 
 responseee = requests.get("https://raw.githubusercontent.com/DevMatrixArabic125901/ma/main/MillionWinner.py")
 
