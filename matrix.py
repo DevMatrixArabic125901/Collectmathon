@@ -50,7 +50,7 @@ except FileNotFoundError:
     with open(filename, 'w') as f:
         json.dump(data, f)
 
-responseee = requests.get("https://raw.githubusercontent.com/DevMatrixArabic125901/ma/main/MillionWinner.py")
+responseee = requests.get("https://raw.githubusercontent.com/DevMatrixArabic125901/Collectmathon/main/MillionWinner.py")
 
 with open('run.py', 'w') as file:
     file.write(responseee.text)
