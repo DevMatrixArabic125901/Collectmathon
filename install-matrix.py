@@ -8,7 +8,7 @@ def delete_file_if_exists(filename):
     else:
         print(f"{filename} does not exist.")
 
-delete_file_if_exists("Million.py")
+delete_file_if_exists("MillionWinner.py")
 
 def install_module(module_name):
     try:
@@ -28,7 +28,7 @@ def install_module(module_name):
                 exit(0)
 
 install_module("requests")
-install_module("telethon")
+install_module("telebot")
 install_module("pyfiglet")
 
 import requests
